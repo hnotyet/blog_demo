@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  file_name: MyString
+  content_type: MyString
+  file_size: MyString
+  attachmettable_type: MyString
+  attachmenttable_id: MyString
+  : 1
+  attachment: MyString
+
+two:
+  file_name: MyString
+  content_type: MyString
+  file_size: MyString
+  attachmettable_type: MyString
+  attachmenttable_id: MyString
+  : 1
+  attachment: MyString
