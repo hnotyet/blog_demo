@@ -81,4 +81,14 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  
+   #自定义一个action
+  def view
+    @post = Post.find(params[:id])
+    render 'show'
+  end
+  
+  
+  
 end

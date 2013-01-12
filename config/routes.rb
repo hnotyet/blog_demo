@@ -1,8 +1,12 @@
 BlogDemo::Application.routes.draw do
   resources :comments
 
-  resources :posts do
+  
+   resources :posts do
      resources :comments
+     member do
+        get 'view'
+     end
   end
   
   resources :sessions
