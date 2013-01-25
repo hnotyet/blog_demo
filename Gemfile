@@ -33,6 +33,14 @@ gem 'mime-types'
 
 
 
+#authentication
+gem 'omniauth-github'
+gem 'omniauth-openid'
+
+
+#paging
+gem "kaminari"
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

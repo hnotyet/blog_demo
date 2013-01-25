@@ -1,10 +1,12 @@
-	<div>
-    <h2><%= link_to_unless_current post.title,post %></h2>
-    <%= simple_format post.content %>
-    </div>
-    
+<div>
+<h2><%= link_to_unless_current post.title,post %></h2>
+<%= simple_format post.content %>
+
+
 <% post.attachments.each do |attachment| %>
-    <%= image_tag attachment.attachment.url(:thumb) %>
-     <%= image_tag attachment.attachment.url(:preview) %>
-    <%= image_tag attachment.attachment.url %>
-  <% end %>
+	<!--  <%= image_tag attachment.attachment.url(:thumb) %> -->
+	<%= image_tag attachment.attachment.url(:preview) %>
+	<!-- <%= image_tag attachment.attachment.url %> -->
+	<% end %>
+
+	</div>

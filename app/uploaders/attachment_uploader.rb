@@ -15,11 +15,11 @@ class AttachmentUploader < CarrierWave::Uploader::Base
   process :set_content_type
 
   version :thumb, :if=> :image? do
-    process :resize_to_fit =>[50,50]
+    process :resize_to_fit =>[70,70]
   end
   
   version :preview, :if=> :image? do
-    process :resize_to_fit=>[80,80]
+    process :resize_to_fit=>[200,200]
   end
   
 
