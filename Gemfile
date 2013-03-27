@@ -41,9 +41,11 @@ gem 'omniauth-openid'
 #paging
 gem "kaminari"
 
+#bootstrap.js
+gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
@@ -56,3 +58,4 @@ gem "kaminari"
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'debugger',group:[:development,:test]
