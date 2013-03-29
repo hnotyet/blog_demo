@@ -20,6 +20,9 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
+
+  #bootstrap.js
+  gem 'twitter-bootstrap-rails'
 end
 
 gem 'jquery-rails'
@@ -40,9 +43,6 @@ gem 'omniauth-openid'
 
 #paging
 gem "kaminari"
-
-#bootstrap.js
-gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
